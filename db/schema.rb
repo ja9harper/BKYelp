@@ -11,15 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150518162250) do
+ActiveRecord::Schema.define(version: 20150520200930) do
 
-  create_table "restaurants", force: true do |t|
-    t.string   "name"
-    t.string   "address"
-    t.string   "phone"
-    t.string   "website"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+# Could not dump table "restaurants" because of following NoMethodError
+#   undefined method `[]' for nil:NilClass
 
 end
