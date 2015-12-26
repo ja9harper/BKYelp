@@ -14,3 +14,5 @@ gem 'spring',        group: :development
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 gem 'carrierwave'
+gem "fog-aws"
+gem 'mini_magick', '~> 4.3', '>= 4.3.6'
